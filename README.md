@@ -7,6 +7,9 @@
 [![Data Source](https://img.shields.io/badge/Data-Sentinel--1%20SAR-orange)](https://sentiwiki.copernicus.eu/web/s1-mission)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 [![Status](https://img.shields.io/badge/Status-Active-success)](#)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Map-brightgreen)](https://anan5093.github.io/satellite-radar-flood-pipeline/)
+
+🔗 **[View the Live Interactive Flood Map](https://anan5093.github.io/satellite-radar-flood-pipeline/)**
 
 An automated geospatial machine learning application that processes space-borne Synthetic Aperture Radar (SAR) data to detect macro-regional flood extents and calculate human population exposure across India. Built on Google Earth Engine's petabyte-scale catalog, the pipeline turns raw satellite radar into actionable disaster-response intelligence — without a single cloud-free optical image required.
 
@@ -173,7 +176,7 @@ ee.Initialize(project="your-gee-project-id")
    - Threshold at -16 dB and mask out permanent water
    - Overlay WorldPop population density
    - Print/export the total inundated area and estimated population exposed
-5. View the exported interactive map in `index.html`, or serve it via GitHub Pages (already live at the repo's linked site).
+5. View the exported interactive map in `index.html` locally, or check out the already-deployed version here: **[anan5093.github.io/satellite-radar-flood-pipeline](https://anan5093.github.io/satellite-radar-flood-pipeline/)**
 
 ---
 
@@ -243,3 +246,5 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 ## 👤 Contributors
 
 - **[Anand Raj](https://github.com/anan5093)** — Project author, pipeline architecture, SAR change-detection methodology, and analysis notebook
+
+Want to see your name here? Check the [Contributing](#-contributing) section above and open a pull request!
