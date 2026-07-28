@@ -16,6 +16,6 @@ An automated geospatial machine learning application that processes space-borne 
 
 ## 📊 Results Summary (Monsoon Baseline)
 * **Target Area:** Northern & Northeastern India
-* **Total Detected Flood Inundation:** [Paste your calculated Sq Km here] sq km
-* **Estimated Human Population Exposed:** [Paste your calculated population number here] citizens
+* **Total Detected Flood Inundation:** [3966 sq km] sq km
+* **Estimated Human Population Exposed:** [28710] citizens
 *
